@@ -33,4 +33,4 @@ jobs:
       - name: Delete Existing Container
         run: docker rm -f task-container
       - name: Run Container
-        run: docker run -d -p 80:80 --name task-container 1090jun/aicc6_task_front:latest
+        run: docker run -d -p 80:80 --name task-container 1090jun/aicc6_task_front
